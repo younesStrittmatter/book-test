@@ -1,1 +1,3 @@
 # intro
+
+[t](notebook.ipynb)
