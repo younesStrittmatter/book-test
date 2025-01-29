@@ -1,0 +1,9 @@
+{% extends "basic/page.html" %}
+
+{% block content %}
+<h1>{{ page.meta.title }}</h1>
+{% if page.meta.subtitle %}
+<h2>{{ page.meta.subtitle }}</h2>
+{% endif %}
+{{ super() }}
+{% endblock %}
