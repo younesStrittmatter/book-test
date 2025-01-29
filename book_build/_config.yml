@@ -1,0 +1,38 @@
+author: The Jupyter Book Community
+bibtex_bibfiles:
+- references.bib
+execute:
+  execute_notebooks: false
+
+html:
+  baseurl: https://younesstrittmatter.github.io/book-test/
+  use_issues_button: true
+  use_repository_button: true
+
+latex:
+  latex_documents:
+    targetname: book.tex
+launch_buttons:
+  colab_url: https://colab.research.google.com/
+  thebe: true
+  binderhub_url: https://mybinder.org/
+  notebook_interface: "jupyterlab"
+logo: logo.png
+parse:
+  myst_substitutions:
+    author: Younes Strittmatter
+    psyneulink_url: https://princetonuniversity.github.io/PsyNeuLink/
+  myst_enable_extensions:
+    - colon_fence
+    - amsmath
+    - dollarmath
+    - linkify
+    - substitution
+    - tasklist
+
+repository:
+  branch: master
+  path_to_book: book_build
+  url: https://github.com/younesStrittmatter/book-test
+
+title: My sample book
