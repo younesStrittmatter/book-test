@@ -2,7 +2,7 @@ author: The Jupyter Book Community
 bibtex_bibfiles:
 - references.bib
 execute:
-  execute_notebooks: false
+  execute_notebooks: force
 
 html:
   baseurl: https://younesstrittmatter.github.io/book-test/
@@ -13,7 +13,7 @@ latex:
   latex_documents:
     targetname: book.tex
 launch_buttons:
-  colab_url: https://colab.research.google.com/
+  colab_url: https://colab.research.google.com
   thebe: true
   binderhub_url: https://mybinder.org/
   notebook_interface: "classic"
